@@ -22,8 +22,6 @@ import org.apache.hadoop.util.ReflectionUtils;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-//http://princetonits.com/technology/using-filesystem-api-to-read-and-write-data-to-hdfs/
-//http://blog.rajeevsharma.in/2009/06/using-hdfs-in-java-0200.html
 
 
 public class compressHDFS {

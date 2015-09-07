@@ -1,4 +1,4 @@
-It is an alternate utility to FTP/SFTP where you can send files directly from a non hadoop system wiyth out having hadoop clients directly to HDFS , protocal userd is webHDFS.
+It is an alternate utility to FTP/SFTP where you can send files directly from a non hadoop system with out having hadoop clients directly to HDFS , protocal userd is webHDFS.
 It takes simple argument like username, password, file location local , file location in hdfs etc.
 HDFS does  not generally have an authentication but this utility provides a way to save username / password in database and authenticate user against ity before taking the hadoop action.
 The Authenticator jsp also send back the active namenode name for an HA system by connecting to the zookeepr and reading the znode for HA.
@@ -20,3 +20,4 @@ mysql> show create table user_details;
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 1 row in set (0.01 sec)
 
+You would need to host the authenticator jsp on a tomcat webser or anything that supports jsp. The zookeeper clients also needs to be present on the machine where the jsp would run.Check out the jsp to configure the details

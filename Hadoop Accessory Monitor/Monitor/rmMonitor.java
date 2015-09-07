@@ -45,7 +45,7 @@ public class rmMonitor {
 			System.exit(1);
 		}
 		
-		String rmUri="http://ebdp-ch2-d145p.sys.comcast.net:8088/ws/v1/cluster/scheduler";
+		String rmUri="http://rm-server-ch2-d145p:8088/ws/v1/cluster/scheduler";
 		String filePath=args[0] + "/scheduler.json";
 		
 		//get the json response from yarn and save to file
@@ -61,7 +61,7 @@ public class rmMonitor {
 		try
 		{
 			
-			String rmUri2="http://ebdp-ch2-d145p.sys.comcast.net:8088/ws/v1/cluster/metrics";
+			String rmUri2="http://rm-server-ch2-d145p:8088/ws/v1/cluster/metrics";
 			String filePath2=args[0] + "/metrics.json";
 			
 			//get the json response from yarn and save to file
@@ -336,7 +336,7 @@ public class rmMonitor {
 		try
 		{
 			String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-			String DB_URL = "jdbc:mysql://ebdp-ch2-h001p.sys.comcast.net/infra";
+			String DB_URL = "jdbc:mysql://server-ch2-h001p/infra";
 			String user="infra", pass="infra";
 			Connection conn = null;
 			Statement stmt = null;

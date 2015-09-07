@@ -116,7 +116,7 @@ public class StartGate {
 	public void updateMySQL(List<String> lst)
 	{
 		String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-		String DB_URL = "jdbc:mysql://ebdp-ch2-h001p.sys.comcast.net/monitor";
+		String DB_URL = "jdbc:mysql://server-ch2-h001p/monitor";
 		String user="monitor", pass="monitor";
 		Connection conn = null;
 		Statement stmt = null;

@@ -48,40 +48,8 @@ public class MRJoin {
 	  	    
 	  	     //Multiple Mapper Class
 	  	     MultipleInputs.addInputPath(conf, new Path(args[0]), OrcInputFormat.class,RosettaMap.class);
-	  	     //MultipleInputs.addInputPath(conf, new Path(args[1]), OrcInputFormat.class,MediumMap.class);
-	  	   // /user/hive/warehouse/ebidatascience.db/medium_table_v4/day_id=2015-07-25
-	  	     MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/day_id=2015-07-25/local_day_id=2015-07-25"), OrcInputFormat.class,MediumMap.class);
-//	  	 MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-02"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-03"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-04"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-05"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-06"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-07"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-08"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-09"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-10"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-11"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-12"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-13"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-14"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-15"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-16"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-17"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-18"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-19"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-20"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-21"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-22"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-23"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-24"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-25"), OrcInputFormat.class,MediumMap.class);
-//   	    MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-26"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-27"), OrcInputFormat.class,MediumMap.class);
-//	  	// MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-28"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-29"), OrcInputFormat.class,MediumMap.class);
-//	  	MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-30"), OrcInputFormat.class,MediumMap.class);
-//	  	// MultipleInputs.addInputPath(conf, new Path("/user/hive/warehouse/ebidatascience.db/medium_table_v4/local_day_id=2015-04-31"), OrcInputFormat.class,MediumMap.class);
-	  	
+	  	     MultipleInputs.addInputPath(conf, new Path(args[1]), OrcInputFormat.class,MediumMap.class);
+	  	   
 	  	     
 	  	     //Reducer Class	  	    
 	  	     conf.setReducerClass(JoinReducer.class);

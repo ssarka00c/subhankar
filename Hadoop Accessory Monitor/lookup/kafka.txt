@@ -1,0 +1,1 @@
+KAFKA-MELD-BROKER=server-ch2-k001p:9092,server-ch2-k002p:9092,server-ch2-k003p:9092,server-ch2-k004p:9092,server-ch2-k005p:9092

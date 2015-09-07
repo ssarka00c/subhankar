@@ -1,0 +1,2 @@
+ZK-MELD-PROD=server-ch2-d103p:2181,server-ch2-d125p:2181,server-ch2-d147p:2181,server-ch2-d169p:2181,server-ch2-d192p:2181
+ZK-MELD-KAFKA=server-ch2-k001p:2181,server-ch2-k002p:2181,server-ch2-k003p:2181,server-ch2-k004p:2181,server-ch2-k005p:2181

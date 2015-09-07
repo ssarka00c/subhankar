@@ -1,0 +1,1 @@
+MELD-KAFKA=server-ch2-k001p:2181,server-ch2-k002p:2181,server-ch2-k003p:2181,server-ch2-k004p:2181,server-ch2-k005p:2181|server-ch2-k001p,server-ch2-k002p,server-ch2-k003p,server-ch2-k004p,server-ch2-k005p|/brokers/ids

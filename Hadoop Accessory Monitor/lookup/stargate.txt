@@ -1,0 +1,14 @@
+CMC-S1=http://server-cmc-s1:9090/
+CMC-S2=http://server-cmc-s2:9090/
+CMC-S3=http://server-cmc-s3:9090/
+CMC-VIP=http://hbasevip-cmc:9090/
+ASHBURN-S1=http://server-as-s1:9090/
+ASHBURN-S2=http://server-as-s2:9090/
+ASHBURN-S3=http://server-as-s3:9090/
+ASHBURN-S4=http://server-as-s4:9090/
+ASHBURN-S5=http://server-as-s5:9090/
+ASHBURN-VIP=http://hbasevip-as:9090/
+M-S1=http://server-s1:9090/
+M-S2=http://server-s2:9090/
+HUE-22P=http://HueServer-1:8888/
+HUE-24P=http://HueServer2:8888/
